@@ -38,4 +38,4 @@ It is a project skeleton (no `vendor/`) that includes:
 - Simple dashboard with total sales, top products, low stock list
 - Tailwind CSS layout
 
-If you want, I can produce a zip containing a **complete Laravel project** with `vendor/` included (larger file), or push this template to a GitHub repo for you.
+
