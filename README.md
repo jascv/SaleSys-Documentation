@@ -1,4 +1,4 @@
-# Laravel Sales Management System (Template)
+# Laravel Sales Management System 
 
 This repository is a **ready-to-upload GitHub template** for a Sales Management System built with Laravel.
 It is a project skeleton (no `vendor/`) that includes:
