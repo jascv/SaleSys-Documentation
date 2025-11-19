@@ -38,4 +38,21 @@ It is a project skeleton (no `vendor/`) that includes:
 - Simple dashboard with total sales, top products, low stock list
 - Tailwind CSS layout
 
+## Folder Structure
+app/Models           # Eloquent models (Category, Supplier, Customer, Product, Sale)
+app/Http/Controllers # Controllers for CRUD operations and business logic
+resources/views      # Blade templates for UI
+routes/web.php       # Route definitions
+database/migrations  # Database schema
+database/seeders     # Sample data (categories, suppliers, customers, products, sales)
 
+## Database Schema
+categories: id, name, description
+suppliers: id, name, contact_info, address
+customers: id, name, contact_info, email
+products: id, name, category_id, supplier_id, price, stock_quantity
+sales: id, customer_id, product_id, quantity, total_price, date
+
+## Contributors
+Cervania, Jaslyn Joy N.
+Developed for DMMMSU System Integration and Architecture 2 (AY 2025-26).
