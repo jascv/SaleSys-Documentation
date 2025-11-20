@@ -82,7 +82,7 @@ Record sales transactions and manage existing entries.
 
 Use edit and delete actions to update or remove records.
 
-Code Snippets
+## Code Snippets
 DashboardController
 
 php
@@ -123,7 +123,8 @@ Copy code
     </td>
 </tr>
 @endforeach
-Contributor
+
+## Contributor
 Cervania, Jaslyn Joy N.
 
 License
